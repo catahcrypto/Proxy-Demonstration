@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Logic_v2.sol": "Logic"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Logic_v2.sol": {
+			"keccak256": "0x91ee319decc4cf3956f63ce73e2508dff5055b2999ddf89d9e7415396725f039",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fd70735dea96012d2ee4da7608c58668395f013782921e0177732c01c4e87f76",
+				"dweb:/ipfs/Qmf32aCqzBZJC3FAeWCENtkYLJ4D5sK8tjXtMWiq2n764v"
+			]
+		}
+	},
+	"version": 1
+}
