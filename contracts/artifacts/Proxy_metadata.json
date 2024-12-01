@@ -17,6 +17,25 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "FallbackCalled",
+				"type": "event"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -92,11 +111,19 @@
 	},
 	"sources": {
 		"contracts/Proxy.sol": {
-			"keccak256": "0x9866c66be2732780226a4b84b6cdd8f900c49bacf0dc6f5639cdf3f7ae4ae045",
+			"keccak256": "0xd67772a13090a7e49d95a4f1075d9973abf8209ca3ad725eded0b8dd08db70aa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b8963c466e89733a0b429a03e5e3362d02b583018e9fdf5d4900dc367676c603",
-				"dweb:/ipfs/QmRPy4WeqrBPjz7929FrEzg7aoKP7UABQZZNbpDU2DB6Xx"
+				"bzz-raw://6f89a4f556e20bfdb68dc46d7daeb20e56d6eb99825714145b3edc8fc18e09cb",
+				"dweb:/ipfs/QmeP8NMHBovCNi5bshfGU1kS5JnxxDQjcAf28sADgBNtvJ"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
 			]
 		}
 	},

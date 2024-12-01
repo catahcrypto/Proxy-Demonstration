@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Logic_v2.sol": "Logic"
+			"contracts/Logic.sol": "Logic"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +53,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Logic_v2.sol": {
-			"keccak256": "0x91ee319decc4cf3956f63ce73e2508dff5055b2999ddf89d9e7415396725f039",
+		"contracts/Logic.sol": {
+			"keccak256": "0x62323d44645bb3811a65a78ae1a8b294880285658a8eece34746d72d030a49c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fd70735dea96012d2ee4da7608c58668395f013782921e0177732c01c4e87f76",
-				"dweb:/ipfs/Qmf32aCqzBZJC3FAeWCENtkYLJ4D5sK8tjXtMWiq2n764v"
+				"bzz-raw://2bf4d81b5550dff6010e1a1d0bf3c33760e0db70ce2bd28d21af5b081543a26a",
+				"dweb:/ipfs/QmdGq8BL2bCUrreP8RDXXyfiU4hamYocSzmYZoxyDPRCF8"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
 			]
 		}
 	},

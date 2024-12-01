@@ -54,11 +54,19 @@
 	},
 	"sources": {
 		"contracts/Logic_v2.sol": {
-			"keccak256": "0xb722ba5fc3faf6db491ed0cdf34d94803f5cf4f6184db6010769c71217dd2ca6",
+			"keccak256": "0xe1b4b731947a44d3eaf76e371e2de76d1a8578ec3133b2b842c1afe106ea719a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://35eba305f8a7df65c5e736f194c484cb997cee45efdce426d0a2f19fc387825f",
-				"dweb:/ipfs/QmdwiEtpvGKRMUb8Jmc49eUXU98xEF7yk2xHpk87qtSAdb"
+				"bzz-raw://d76d772fd7bdd5ddecdc793113d820917a33243505d92f7c507bd4898bdfc55b",
+				"dweb:/ipfs/QmY7vtPCk4hEfkpu39tYo5yrt2ZDWPZvmq5745SrHeKyp4"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
 			]
 		}
 	},
