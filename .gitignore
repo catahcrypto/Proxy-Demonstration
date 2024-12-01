@@ -8,7 +8,7 @@ vendor/
 dist/
 out/
 bin/
-
+contracts/artifacts
 # Log files
 *.log
 
