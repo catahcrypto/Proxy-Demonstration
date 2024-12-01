@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+vendor/
+.deps/npm/hardhat
+.states/vm-cancun
+
+# Build artifacts
+dist/
+out/
+bin/
+
+# Log files
+*.log
+
+# Temporary files
+.DS_Store
+*.swp
+.prettierrcc.json
+
